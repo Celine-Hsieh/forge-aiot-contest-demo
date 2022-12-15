@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "start"
+            ],
+            "skipFiles": [
+                "<node_internals>/**/*.js"
+            ],
+            "env": {
+                //"ASPNETCORE_URLS" : "https://celinehsieh68.github.io/",
+                "FORGE_CLIENT_ID": "0DIcr51O8KYFEFWsKL8US3lo5QLvB3lt",
+                "FORGE_CLIENT_SECRET": "2z6dhP8hvGRw0XUV",
+                "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth"
+            }
+        }
+    ]
+}

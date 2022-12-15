@@ -1,0 +1,95 @@
+{
+  "sensors": [
+    {
+      "id": 1,
+      "code": "sensor-1",
+      "name": "sd",
+      "description": "Basic sensor at the table.",
+      "groupName": "Now",
+      "location": {
+        "x": -18.87518011236911,
+        "y": 16.84099353517728,
+        "z": -3.397637844085691
+      },
+      "objectId": 2915
+    },
+    {
+      "id": 2,
+      "code": "sensor-2",
+      "name": "sd",
+      "description": "Basic sensor at the table.",
+      "groupName": "Predict (10 min later)",
+      "location": {
+        "x": -18.87518011236918,
+        "y": 16.840993535177283,
+        "z": -3.397637844085693
+      },
+      "objectId": 2915
+    },
+    {
+      "id": 3,
+      "code": "sensor-3",
+      "name": "eagle-eye",
+      "description": "Basic sensor in the middle of the Mcas 401 Room celling.",
+      "groupName": "Now",
+      "location": {
+        "x": -22.79642694458579,
+        "y": 21.136528774330582,
+        "z": 4.921259880065911
+      },
+      "objectId": 3034
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "code": "temp",
+      "name": "Temperature",
+      "description": "External temperature in degrees Celsius.",
+      "type": "double",
+      "unit": "°C",
+      "min": 22.5,
+      "max": 24.2
+    },
+    {
+      "id": 2,
+      "code": "co2",
+      "name": "CO₂",
+      "description": "Level of carbon dioxide.",
+      "type": "double",
+      "unit": "ppm",
+      "min": 800,
+      "max": 1300
+    },
+    {
+      "id": 3,
+      "code": "RH",
+      "name": "RH",
+      "description": "Level of carbon dioxide.",
+      "type": "double",
+      "unit": "%",
+      "min": 0,
+      "max": 10
+    },
+    {
+      "id": 4,
+      "code": "pm25",
+      "name": "PM25",
+      "description": "Level of carbon dioxide.",
+      "type": "double",
+      "unit": "μm",
+      "min": 0,
+      "max": 8
+    },
+    {
+      "id": 5,
+      "code": "people",
+      "name": "People",
+      "description": "Level of carbon dioxide.",
+      "type": "double",
+      "unit": "count",
+      "min": 0,
+      "max": 10
+    }
+  ]
+}
